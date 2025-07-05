@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>🛒 Product Search by Category</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>🧾 Product Search</h1>
+
+    <div class="search-row">
+        <input type="text" id="searchInput" placeholder="Search for shirts, electronics, etc..." />
+        <button onclick="searchProducts()">Search</button>
+    </div>
+
+    <p class="note">💡 Example: shirt, bag, jeans, jewelery</p>
+
+    <p id="loadingText" class="loading" style="display: none;">Loading...</p>
+    <p id="noResults" class="not-found" style="display: none;">No matching products found.</p>
+
+    <div id="tablesContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
